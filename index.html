@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Criptografia</title>
+    </head>
+    <body class="corpo">
+        <header class="cabecalho">
+            <h1 class="titulo">Criptografando com Mateus</h1>
+            <ul class="lista-redes-sociais">
+                <li class="item-lista-redes-sociais">
+                    <a class="botao-rede-social" href="https://github.com/mateus-laurentino" target="_blank" rel="noopener noreferrer">
+                        <img class="img-botao-rede-social" src="img/github.png">
+                    </a>
+                </li>
+                <li class="item-lista-redes-sociais">
+                    <a class="botao-rede-social" href="https://www.facebook.com/mateuslaurentino" target="_blank" rel="noopener noreferrer">
+                        <img class="img-botao-rede-social" src="img/facebook.png">
+                    </a>
+                </li>
+                <li class="item-lista-redes-sociais">
+                    <a class="botao-rede-social" href="https://www.instagram.com/mateuslaurentino.a/" target="_blank" rel="noopener noreferrer">
+                        <img class="img-botao-rede-social" src="img/instagran.png">
+                    </a>
+                </li>
+                <li class="item-lista-redes-sociais">
+                    <a class="botao-rede-social" href="https://www.linkedin.com/in/mateus-laurentino-de-andrade/" target="_blank" rel="noopener noreferrer">
+                        <img class="img-botao-rede-social" src="img/linkedin.png">
+                    </a>
+                </li>
+                
+            </ul>
+        </header>
+
+        <section class="conteudo">
+            <div class="container-criptografia">
+                <textarea class="caixaTexto-criptografia"></textarea>
+                <div class="botao">
+                    <button id="criptografar" class="botao-criptografia">Criptografa</button>
+                    <button id="descriptografar" class="botao-criptografia">Descriptografa</button>
+                </div>
+                
+            </div>
+
+            <div class="container-descriptografia">
+                <div class="saidaDeTexto-criptografada">
+                    <img class="container-descriptografia-img" src="img/notFound.png">
+                    <textarea class="container-descriptografia-lbl esconder" readonly></textarea>
+                </div>
+
+                <div class="botaoDescriptografar">
+                    <button class="botao-copiar">Copiar</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <h4 class="titulo4-rodape">Criado por: </h4>
+            <p class="pagrafo-rodape">Mateus Laurentino de Andrade</p>
+        </footer>
+        
+        <div id="div_dos_scripts">
+            <!--Sessão dos scripts-->
+            <script src="js/criptogra.js"></script>
+            <script src="js/descriptografa.js"></script>
+            <script src="js/copiar.js"></script>
+        </div>
+        
+    </body>
+</html>
